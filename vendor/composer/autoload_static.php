@@ -255,6 +255,10 @@ class ComposerStaticInit0598de1172f3b1219db660d348894d26
             array (
                 0 => __DIR__ . '/..' . '/mockery/mockery/library',
             ),
+            'Michelf' => 
+            array (
+                0 => __DIR__ . '/..' . '/michelf/php-markdown',
+            ),
         ),
         'J' => 
         array (
@@ -289,6 +293,7 @@ class ComposerStaticInit0598de1172f3b1219db660d348894d26
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Post' => __DIR__ . '/../..' . '/app/Post.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
@@ -299,6 +304,7 @@ class ComposerStaticInit0598de1172f3b1219db660d348894d26
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreatePostsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_28_031342_create_posts_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
@@ -1567,6 +1573,9 @@ class ComposerStaticInit0598de1172f3b1219db660d348894d26
         'League\\Flysystem\\Util\\ContentListingFormatter' => __DIR__ . '/..' . '/league/flysystem/src/Util/ContentListingFormatter.php',
         'League\\Flysystem\\Util\\MimeType' => __DIR__ . '/..' . '/league/flysystem/src/Util/MimeType.php',
         'League\\Flysystem\\Util\\StreamHasher' => __DIR__ . '/..' . '/league/flysystem/src/Util/StreamHasher.php',
+        'Michelf\\Markdown' => __DIR__ . '/..' . '/michelf/php-markdown/Michelf/Markdown.php',
+        'Michelf\\MarkdownExtra' => __DIR__ . '/..' . '/michelf/php-markdown/Michelf/MarkdownExtra.php',
+        'Michelf\\MarkdownInterface' => __DIR__ . '/..' . '/michelf/php-markdown/Michelf/MarkdownInterface.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',
